@@ -186,11 +186,12 @@ nav ul li a:hover {
         top: 140%;
         bottom: 0;
         left: 5%;
-        height: 275px;
+        height: 330px;
         right: 5%;
     }
 
     .special {
+        top: 15px;
         width: 100%;
     }
 }
