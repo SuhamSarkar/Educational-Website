@@ -26,7 +26,7 @@
 }
 
 .icon-logo h1 {
-    font-size: 13px;
+    font-size: 18px;
     /* font-family: cursive; */
     margin: 0;
 }
@@ -229,6 +229,9 @@ nav ul li a:hover {
 
 
 @media only screen and (max-width: 900px) {
+    .icon-logo h1 {
+        font-size: 13px;
+    }
     .round-image {
         height: 200px;
     }

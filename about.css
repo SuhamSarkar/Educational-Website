@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    background-color: #303030;
     color: #fff;
     padding: 5px;
     border-bottom-left-radius: 20px;
@@ -26,23 +26,20 @@
 }
 
 .icon-logo h1 {
-    font-size: 13px;
+    font-size: 18px;
     /* font-family: cursive; */
     margin: 0;
 }
 
 body {
-
-    /* font-family: Arial, sans-serif; */
     font-size: 16px;
     line-height: 1.5;
     height: 2000vh;
-    background: linear-gradient(to right, #f9cece, #5b54f3);
-
+    background: linear-gradient(to right, #bd7bda, #393690);
 }
 
 header {
-    background-color: #000bb9;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     margin: 10px;
@@ -58,8 +55,9 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
+    font-weight: bold;
     padding: 10px;
 }
 
@@ -67,7 +65,7 @@ nav ul li a:hover {
     /* text-decoration: underline; */
     border-bottom: 2px solid rgb(238, 0, 0);
     border-bottom-width: 3px;
-    color: #91ffa1;
+    color: #ff0000;
 }
 
 
@@ -85,6 +83,7 @@ nav ul li a:hover {
     box-shadow: inset 7px 3px 20px rgb(38 40 43 / 68%);
     border-radius: 10px;
     text-shadow: 5px 4px 4px rgb(15 0 0 / 50%);
+    color: white;
 }
 
 /* for overlay container */
@@ -129,6 +128,12 @@ nav ul li a:hover {
 
 
 @media only screen and (max-width: 900px) {
+    .icon-logo h1 {
+        font-size: 13px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
     #container {
         display: flex;
         justify-content: center;
