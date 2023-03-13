@@ -141,12 +141,12 @@ nav ul li a:hover {
         max-height: 100%;
         object-fit: contain;
     }
-    .overlay{
-        position: absolute;
+
+    .overlay {
         top: 10vh;
-        left: 50px;
-        right: 50px;
+        left: 0px;
+        right: 0px;
         height: 90%;
-        background-color: rgba(0, 0, 0, 0.5);
+        
     }
 }
