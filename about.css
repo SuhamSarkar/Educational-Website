@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* height: 200vh; */
+}
+
+.icon-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.icon-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.icon-logo h1 {
+    font-size: 13px;
+    /* font-family: cursive; */
+    margin: 0;
+}
+
+body {
+
+    /* font-family: Arial, sans-serif; */
+    font-size: 16px;
+    line-height: 1.5;
+    height: 2000vh;
+    background: linear-gradient(to right, #f9cece, #5b54f3);
+
+}
+
+header {
+    background-color: #000bb9;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(238, 0, 0);
+    border-bottom-width: 3px;
+    color: #91ffa1;
+}
+
+
+/* FOR ABOUT ME */
+.about-title {
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    top: 5rem;
+    background-color: white;
+    padding: 2px 0.5em;
+    box-shadow: inset 0px 0px 10px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+}
+
+/* for overlay container */
+
+.content-overlay-image {
+    position: absolute;
+    top: 10px;
+}
+
+.my-image {
+    height: 87vh;
+    width: 66vh;
+    position: absolute;
+    top: -38vh;
+    left: 188px;
+    right: 0;
+}
+
+
+
+/* FOR THE CONTAINER */
+.center-container {
+    position: absolute;
+    height: 50vh;
+    top: 80vh;
+    left: 50vh;
+    right: 50vh;
+    bottom: 0;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px rgb(0 0 0 / 20%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .center-container {
+        height: 50vh;
+        top: 73vh;
+        left: 8vh;
+        right: 8vh;
+    }
+
+    .my-image {
+        height: 66vh;
+        width: 50vh;
+        position: absolute;
+        top: -36vh;
+    }
+}
