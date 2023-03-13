@@ -158,7 +158,29 @@ nav ul li a:hover {
     font-size: 28px;
 }
 
+.title-container {
+    text-align: center;
+}
 
+.title {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 10px;
+    background-color: white;
+    padding: 2px 0.5em;
+}
+
+.line {
+    border: none;
+    border-top: 2px solid black;
+    width: 12%;
+    margin: 0;
+    position: absolute;
+    top: 131vh;
+    left: 41rem;
+    opacity: 0.3;
+}
 
 
 
@@ -193,5 +215,10 @@ nav ul li a:hover {
     .special {
         top: 15px;
         width: 100%;
+    }
+
+    .line {
+        width: 19%;
+        left: 12rem;
     }
 }
