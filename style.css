@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .icon-logo {
@@ -25,13 +26,13 @@
 
 .icon-logo h1 {
     font-size: 13px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin: 0;
 }
 
 body {
 
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     font-size: 16px;
     line-height: 1.5;
     height: 200vh;
@@ -134,7 +135,7 @@ nav ul li a:hover {
     left: 23%;
     height: 201px;
     right: 23%;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 17px;
     color: white;
     /* border: 2px solid red; */
@@ -148,7 +149,7 @@ nav ul li a:hover {
     position: absolute;
     width: 119vh;
     font-weight: bolder;
-    font-family: cursive;
+    /* font-family: cursive; */
     letter-spacing: 4px;
     top: 0;
     background: linear-gradient(to right, red, blue);
