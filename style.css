@@ -204,7 +204,8 @@ nav ul li a:hover {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #333;
+    /* background-color: #333; */
+    background: linear-gradient(to right, #1ee4e4, blue);
     color: white;
     border: none;
     border-radius: 5px;
