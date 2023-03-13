@@ -87,16 +87,20 @@ nav ul li a:hover {
 /* for overlay container */
 
 .content-overlay-image {
-    position: absolute;
-    top: 10px;
-}
-
-.my-image {
     height: 87vh;
     width: 66vh;
     position: absolute;
-    top: -38vh;
-    left: 188px;
+    top: -47vh;
+    left: -17vh;
+    right: 0;
+}
+
+.my-image {
+    height: 97vh;
+    width: 74vh;
+    position: absolute;
+    top: 0vh;
+    left: 297px;
     right: 0;
 }
 
@@ -131,9 +135,10 @@ nav ul li a:hover {
     }
 
     .my-image {
-        height: 66vh;
-        width: 50vh;
+        height: 69vh;
+        width: 49vh;
         position: absolute;
-        top: -36vh;
+        top: 20vh;
+        left: 21vh;
     }
 }
