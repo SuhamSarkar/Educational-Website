@@ -123,7 +123,7 @@ nav ul li a:hover {
 }
 
 /* ABOUT AREA */
-.area-container{
+.area-container {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -138,27 +138,61 @@ nav ul li a:hover {
     box-shadow: inset 7px 3px 20px rgb(232 232 232 / 68%);
     border-radius: 20px;
 }
-.training{
+
+/* TRAINING CONTENT */
+.training {
     position: absolute;
     top: 10vh;
     font-size: 30px;
-    color: #1a0fb9;
+    color: #000000;
     text-decoration: overline;
     text-decoration-color: #1d393a;
     text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
 }
-.about-content{
+
+.training-content {
     text-align: center;
     height: 26vh;
     display: flex;
     margin: 0px;
     font-size: 18px;
-    background: white;
+    background: #415aff;
     width: 80vh;
     position: absolute;
+    color: white;
     top: 20vh;
     align-items: center;
     padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
+}
+
+/* PROJETC CONTENT */
+.project {
+    position: absolute;
+    top: 55vh;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration-color: #1d393a;
+    text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
+}
+
+.project-content {
+    text-align: center;
+    height: 26vh;
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    background: #415aff;
+    width: 80vh;
+    position: absolute;
+    color: white;
+    top: 66vh;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
 }
 
 
@@ -166,9 +200,11 @@ nav ul li a:hover {
     .icon-logo h1 {
         font-size: 13px;
     }
+
     nav ul li a {
         font-size: 16px;
     }
+
     #container {
         display: flex;
         justify-content: center;
@@ -190,20 +226,33 @@ nav ul li a:hover {
         left: 0px;
         right: 0px;
         height: 90%;
-        
+
     }
+
     .title {
         margin: 15px;
         font-size: 21px;
         padding: 5px 0.5em;
     }
-    .area-container{
-        top: 155vh;
+
+    .area-container {
+        top: 185vh;
         width: 85%;
-        height: 122vh;
+        height: 174vh;
     }
-    .about-content{
+
+    .training-content {
         height: 40vh;
+        width: 34vh;
+    }
+
+    .project {
+        top: 66vh;
+    }
+
+    .project-content {
+        height: 40vh;
+        top: 78vh;
         width: 34vh;
     }
 
