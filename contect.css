@@ -98,12 +98,33 @@ nav ul li a:hover {
     border-radius: 50%;
     max-width: 80%;
     max-height: 80%;
-    padding: 85px;
+    padding: 60px;
     margin: 0px;
     position: absolute;
     top: 30px;
 }
-
+.location-icon{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 11vh;
+    left: 36vh;
+    height: 47px;
+    width: 47px;
+}
+.whatsapp-icon{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 23vh;
+    left: 37vh;
+    height: 40px;
+}
+.phone-icon{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 35vh;
+    left: 37vh;
+    height: 40px;
+}
 
 
 
@@ -123,5 +144,14 @@ nav ul li a:hover {
         top: 50px;
         bottom: 50px;
         left: -45px;
+    }
+    .location-icon{
+        left: 25vh;
+    }
+    .whatsapp-icon{
+        left: 25vh;
+    }
+    .phone-icon{
+        left: 25vh;
     }
 }
