@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* height: 200vh; */
+}
+
+.icon-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.icon-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.icon-logo h1 {
+    font-size: 18px;
+    /* font-family: cursive; */
+    margin: 0;
+}
+
+body {
+
+    /* font-family: Arial, sans-serif; */
+    font-size: 16px;
+    line-height: 1.5;
+    height: 160vh;
+}
+
+header {
+    background-color: #8520c4;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(238, 0, 0);
+    border-bottom-width: 3px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* for the content area */
+/* ABOUT AREA */
+.area-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100vh;
+    border: 2px solid #5f5f5f;
+    align-items: center;
+    width: 50%;
+    height: 133vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #acacac;
+    box-shadow: inset 7px 3px 20px rgb(232 232 232 / 68%);
+    border-radius: 20px;
+}
+
+/* TRAINING CONTENT */
+.details-classVI {
+    position: absolute;
+    top: 10vh;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #1d393a;
+    text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
+}
+
+.details-classVI-content {
+    text-align: center;
+    height: 26vh;
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    background: #415aff;
+    width: 80vh;
+    position: absolute;
+    color: white;
+    top: 20vh;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
+}
+
+/* PROJETC CONTENT */
+.subjects {
+    position: absolute;
+    top: 25vh;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration-color: #1d393a;
+    text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
+}
+
+.subjects-content {
+    text-align: center;
+    height: 26vh;
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    background: #415aff;
+    width: 60vh;
+    position: absolute;
+    color: white;
+    top: 38vh;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
+    justify-content: center;
+}
+
+/* Certificate content */
+.board-fees {
+    position: absolute;
+    top: 73vh;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration-color: #1d393a;
+    text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
+}
+
+.board-fees-content {
+    text-align: center;
+    height: 26vh;
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    background: #415aff;
+    width: 36vh;
+    position: absolute;
+    color: white;
+    top: 85vh;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
+    justify-content: center;
+}
+
+.details-buttons button{
+    padding: 10px 20px;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 120vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* hover */
+.details-buttons button:hover{
+    cursor: pointer;
+    background: gray;
+}
+.area-container:hover{
+    background: white;
+}
+
+@media only screen and (max-width: 900px){
+    .area-container{
+        width: 90%;
+    }
+    .subjects-content{
+        width: 38vh;
+    }
+}
