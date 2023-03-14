@@ -118,9 +118,10 @@ nav ul li a:hover {
     }
 
     .profile-image {
-        padding: 64px;
+        /* padding: 64px; */
         position: absolute;
-        top: 50px;
+        /* top: 50px; */
+        /* bottom: 50px; */
         left: -45px;
     }
 }
