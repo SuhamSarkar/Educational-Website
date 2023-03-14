@@ -181,7 +181,7 @@ nav ul li a:hover {
 
 .details-buttons button{
     padding: 10px 20px;
-    background: linear-gradient(to right, red, blue);
+    background: black;
     color: white;
     border: none;
     border-radius: 5px;
