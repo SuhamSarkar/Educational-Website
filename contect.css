@@ -126,7 +126,27 @@ nav ul li a:hover {
     height: 40px;
 }
 
-
+.location-text{
+    border: 2px solid red;
+    display:inline-block;
+    position: absolute;
+    top: 12vh;
+    left: 43vh;
+}
+.whatsapp-text{
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 24vh;
+    left: 45vh;
+}
+.phone-text{
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 36vh;
+    left: 45vh;
+}
 
 
 
@@ -156,5 +176,14 @@ nav ul li a:hover {
     .phone-icon{
         top: 30vh;
         left: 17vh;
+    }
+    .location-text{
+
+    }
+    .whatsapp-text{
+
+    }
+    .phone-text{
+
     }
 }
