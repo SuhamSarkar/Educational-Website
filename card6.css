@@ -39,6 +39,10 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .card6 button:hover{
+    cursor: pointer;
+    background: gray;
+  }
   .class-title6{
     /* border: 2px solid red; */
     display: flex;
