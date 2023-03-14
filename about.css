@@ -295,3 +295,11 @@ nav ul li a:hover {
     }
 
 }
+
+/* @media only screen and (max-height: 600px ) {
+    .project-content {
+        height: 66vh;
+        top: 78vh;
+        width: 34vh;
+    }
+} */
