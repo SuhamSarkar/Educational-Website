@@ -67,3 +67,60 @@ nav ul li a:hover {
     border-bottom-width: 3px;
     color: #ff0000;
 }
+
+/* FOR CONTAINER */
+.contact-text {
+    text-align: center;
+}
+
+.text {
+    display: inline-block;
+    margin: 20px;
+    font-size: 35px;
+    /* background-color: rgb(255 233 221); */
+    padding: 10px 1.5em;
+    box-shadow: inset 7px 3px 20px rgb(38 40 43 / 68%);
+    border-radius: 10px;
+    text-shadow: 5px 4px 4px rgb(15 0 0 / 50%);
+    color: white;
+}
+
+.box-area {
+    border: 2px solid red;
+    height: 50vh;
+    position: absolute;
+    top: 50vh;
+    left: 20vh;
+    right: 20vh;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 80%;
+    max-height: 80%;
+    padding: 85px;
+    margin: 0px;
+    position: absolute;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .box-area {
+        left: 5vh;
+        right: 5vh;
+    }
+
+    .profile-image {
+        padding: 64px;
+        position: absolute;
+        top: 50px;
+        left: -45px;
+    }
+}
