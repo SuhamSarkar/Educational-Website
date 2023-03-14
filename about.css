@@ -34,7 +34,7 @@
 body {
     font-size: 16px;
     line-height: 1.5;
-    height: 2000vh;
+    height: 400vh;
     background: linear-gradient(to right, #bd7bda, #393690);
 }
 
@@ -222,6 +222,7 @@ nav ul li a:hover {
     border-radius: 15px;
     box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
 }
+
 
 
 @media only screen and (max-width: 1000px) {
