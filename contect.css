@@ -146,12 +146,15 @@ nav ul li a:hover {
         left: -45px;
     }
     .location-icon{
+        top: 10vh;
         left: 16vh;
     }
     .whatsapp-icon{
+        top: 20vh;
         left: 16vh;
     }
     .phone-icon{
+        top: 30vh;
         left: 16vh;
     }
 }
