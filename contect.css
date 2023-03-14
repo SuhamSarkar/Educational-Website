@@ -130,27 +130,33 @@ nav ul li a:hover {
 }
 
 .location-text {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     position: absolute;
     top: 12vh;
     left: 43vh;
+    color: white;
+    text-decoration: none;
 }
 
 .whatsapp-text {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     position: absolute;
     top: 24vh;
     left: 45vh;
+    color:white;
+    text-decoration: none;
 }
 
 .phone-text {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     position: absolute;
     top: 36vh;
     left: 45vh;
+    color: white;
+    text-decoration: none;
 }
 
 
