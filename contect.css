@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .box-area {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 50vh;
     position: absolute;
     top: 50vh;
