@@ -103,7 +103,8 @@ nav ul li a:hover {
     position: absolute;
     top: 30px;
 }
-.location-icon{
+
+.location-icon {
     /* border: 2px solid red; */
     position: absolute;
     top: 11vh;
@@ -111,14 +112,16 @@ nav ul li a:hover {
     height: 47px;
     width: 47px;
 }
-.whatsapp-icon{
+
+.whatsapp-icon {
     /* border: 2px solid red; */
     position: absolute;
     top: 23vh;
     left: 37vh;
     height: 40px;
 }
-.phone-icon{
+
+.phone-icon {
     /* border: 2px solid red; */
     position: absolute;
     top: 35vh;
@@ -126,21 +129,23 @@ nav ul li a:hover {
     height: 40px;
 }
 
-.location-text{
+.location-text {
     border: 2px solid red;
-    display:inline-block;
+    display: inline-block;
     position: absolute;
     top: 12vh;
     left: 43vh;
 }
-.whatsapp-text{
+
+.whatsapp-text {
     border: 2px solid red;
     display: inline-block;
     position: absolute;
     top: 24vh;
     left: 45vh;
 }
-.phone-text{
+
+.phone-text {
     border: 2px solid red;
     display: inline-block;
     position: absolute;
@@ -165,25 +170,34 @@ nav ul li a:hover {
         bottom: 50px;
         left: -45px;
     }
-    .location-icon{
+
+    .location-icon {
         top: 10vh;
         left: 16vh;
     }
-    .whatsapp-icon{
+
+    .whatsapp-icon {
         top: 20vh;
         left: 17vh;
     }
-    .phone-icon{
+
+    .phone-icon {
         top: 30vh;
         left: 17vh;
     }
-    .location-text{
 
+    .location-text {
+        top: 7vh;
+        left: 22vh;
     }
-    .whatsapp-text{
 
+    .whatsapp-text {
+        top: 21vh;
+    left: 25vh;
     }
-    .phone-text{
 
+    .phone-text {
+        top: 29vh;
+    left: 24vh;
     }
 }
