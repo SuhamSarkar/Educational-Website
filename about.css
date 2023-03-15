@@ -293,9 +293,9 @@ nav ul li a:hover {
     }
 
     .area-container {
-        top: 198vh;
-        width: 85%;
-        height: 200vh;
+        top: 222vh;
+        width: 90%;
+        height: 255vh;
     }
 
     .training-content {
@@ -321,6 +321,16 @@ nav ul li a:hover {
         height: 55vh;
         top: 136vh;
         width: 34vh;
+    }
+
+    .acheivements {
+        top: 200vh;
+    }
+
+    .acheivements-content {
+        top: 210vh;
+        width: 50vh;
+        height: 35vh;
     }
 
 }
