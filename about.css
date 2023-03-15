@@ -127,11 +127,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 245vh;
+    top: 275vh;
     border: 2px solid #5f5f5f;
     align-items: center;
     width: 50%;
-    height: 160vh;
+    height: 200vh;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #acacac;
@@ -217,6 +217,34 @@ nav ul li a:hover {
     position: absolute;
     color: white;
     top: 112vh;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 7px 3px 20px rgb(135 135 135 / 68%);
+}
+
+/* Acheivements content */
+.acheivements {
+    position: absolute;
+    top: 148vh;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration-color: #1d393a;
+    text-shadow: 0px 3px 5px rgb(20 0 0 / 50%);
+}
+
+.acheivements-content {
+    text-align: center;
+    height: 26vh;
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    background: #415aff;
+    width: 80vh;
+    position: absolute;
+    color: white;
+    top: 160vh;
     align-items: center;
     padding: 30px;
     border-radius: 15px;
